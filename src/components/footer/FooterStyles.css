@@ -2,7 +2,7 @@
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
-    color: black;
+    color: white;
 }
 
 .site-footer hr {
@@ -15,7 +15,7 @@
 }
 
 .site-footer h6 {
-    color: black;
+    color: #fff;
     font-size: 16px;
     text-transform: uppercase;
     margin-top: 5px;
@@ -67,7 +67,7 @@
     margin-left: 6px;
     margin-right: 0;
     border-radius: 100%;
-    background-color: black
+    background-color: white
 }
 
 .copyright-text {
@@ -111,7 +111,7 @@
 
 .social-icons a {
     background-color: #eceeef;
-    color:white;
+    color: #818a91;
     font-size: 16px;
     display: inline-block;
     line-height: 44px;
