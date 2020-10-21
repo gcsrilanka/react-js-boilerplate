@@ -17,4 +17,5 @@ This is a extended version of **create-react-app**
 - Animate On Scroll
 - Fontawsome
 - AnimateJS
-  
+- Add Docker File - Done
+- Add Workflow - Done
