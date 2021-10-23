@@ -12,10 +12,14 @@
     "react-scripts": "3.4.4"
   },
   "scripts": {
+    "lint": "eslint public/data src --ext [.json,.js]",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
+    "prepare": "husky install",
+    
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -31,5 +35,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  ,
+  "devDependencies": {
+    "husky": "^7.0.2",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.25.1",
+  },
 }
